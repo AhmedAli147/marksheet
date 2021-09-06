@@ -1,0 +1,61 @@
+void main (){
+  
+  var name = "Ahmed Ali Abdul Aziz";
+  print ("Name:    ${name}");  
+  
+  int rollno = 123;
+  print ("Roll No:   ${123}");
+  
+  
+  num islamiat = 100;
+  print("Islamiat    = ${islamiat}");
+  num urdu =     75.5;
+  print ("Urdu    =     ${urdu}");
+  num pakstudies = 80.6;
+  print ("Pak Studies = ${pakstudies}");
+  num flutter = 100;
+  print("flutter    = ${flutter}");
+  num dart = 100;
+  print ("Dart     =   ${dart}"); 
+  
+  num mo = (islamiat+urdu+pakstudies+flutter+dart);
+  print("Marks Obtained: ${islamiat+urdu+pakstudies+flutter+dart}");
+  num tm = 500;
+  print("Total Marks:  ${tm}");
+  
+  
+//   int marksobtained = 435;
+//   int totalmarks = 500;
+  num percentage = mo/tm*100;
+  
+  if(percentage<=59){
+    print ("C grade");
+  }
+      else if (percentage<=69){
+        print("B grade");
+      }
+  
+         else if (percentage >= 69){
+          print ("A grade");
+        }
+   else if (percentage<=30){
+    print("Failed");
+  };
+  
+  
+        
+        
+   
+
+  
+  
+  print("Percentage: ${percentage} ");
+  
+  
+  
+    
+  
+   
+ 
+  
+}
